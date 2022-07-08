@@ -10,17 +10,21 @@ In one of my previous projects in which I created a website using the Open Libra
 Using a fetch request I can fetch data from the API here an example of what I would get if I retrieved the file via a simple fetch request 
 
 
+
+ This :
+ 
 ```
-// This :
 const url4 =`https://openlibrary.org/works/OL381550W.json` // The Island of Dr. Moreau 
 
 fetch(url4)
 .then(res => (res.json()))
 .then(x => console.log(x))
+```
 
 
+Would retrieve this:
 
-// Would retrieve this:
+```
 Object { title: "The Island of Dr. Moreau", key: "/works/OL381550W", authors: (1) […], type: {…}, covers: (56) […], subjects: (23) […], subject_times: (1) […], description: "See work: https://openlibrary.org/works/OL15308975W", latest_revision: 19, revision: 19, … }
 ​
 authors: Array [ {…} ]
