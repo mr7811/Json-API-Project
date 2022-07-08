@@ -51,3 +51,22 @@ title: "The Island of Dr. Moreau"
 ​
 type: Object { key: "/type/work" }
 ```
+
+## An Example Model Using Mongoose and Express
+I will add some data in addition to the given data from the API to create a more intuitive API. I will be adding a link in which you can buy the product from google books, along with a link in which you can borrow the book in NYPL. The rest being standard properties of books.
+Here is a sample code:
+
+```
+import mongoose from "mongoose";
+const Schema = mongoose.Schema;
+
+let Book = new Schema({
+    Title: { type: String },
+    Author: { type: String },
+    Description: { type: String },
+    Cover: { type: String },
+    URL: { type: String },
+    linkToBuy: { type: String },
+    NYPL_Link: { type: String },
+  });
+```
