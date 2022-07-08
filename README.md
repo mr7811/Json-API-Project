@@ -10,7 +10,7 @@ In one of my previous projects in which I created a website using the Open Libra
 Using a fetch request I can fetch data from the API here an example of what I would get if I retrieved the file via a simple fetch request 
 
 
-'''
+```
 // This :
 const url4 =`https://openlibrary.org/works/OL381550W.json` // The Island of Dr. Moreau 
 
@@ -46,4 +46,4 @@ subjects: Array(23) [ "Islands", "Survival after airplane accidents, shipwrecks"
 title: "The Island of Dr. Moreau"
 ​
 type: Object { key: "/type/work" }
-'''
+```
