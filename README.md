@@ -7,9 +7,15 @@ In one of my previous projects in which I created a website using the Open Libra
 
 ## API
 
+Books can be found using /books
+in the root route you should see something like api route
+
+
 Information could be found in the seed folder in books.json for each individual book this is an example:
 
-...
+
+
+```
 "Title": "A World Set Free",
     "Author": "H.G Wells",
     "Description":"The World Set Free is a novel written in 1913 and published in 1914 by H. G. Wells. The book is based on a prediction of a more destructive and uncontrollable sort of weapon than the world has yet seen.", 
@@ -19,7 +25,7 @@ Information could be found in the seed folder in books.json for each individual 
     "NYPL_Link": "https://nypl.overdrive.com/media/6331863?utm_campaign=searchfeed&utm_source=google"
   },
   {
-  ...
+  ```
 
 
 
