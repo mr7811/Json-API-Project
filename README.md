@@ -7,7 +7,12 @@ In one of my previous projects in which I created a website using the Open Libra
 
 ## API
 
-Books can be found using api/books
+Books can be found using api/books or in heroku
+
+https://jsonbookapi1.herokuapp.com/api/books
+
+
+
 in the root route you should see something like api route
 
 
