@@ -17,6 +17,8 @@ app.use(logger("dev"));
 
 app.use("/api", routes);
 
+app.get("/", (req, res) => res.send("the beginning of api"))
+
 db.on("connected", () => {
  console.clear()
  console.log("mongol db works")
