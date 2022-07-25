@@ -52,3 +52,17 @@ let Book = new Schema({
     NYPL_Link: { type: String },
   });
 ```
+
+
+
+Routes
+
+```
+
+router.get("/books", controllers.getBooks);
+router.get("/books/:id", controllers.getBook);
+router.post("/books", controllers.createBook);
+router.put("/books/:id", controllers.updateBook);
+router.delete("/books/:id", controllers.deleteBook);
+
+```
