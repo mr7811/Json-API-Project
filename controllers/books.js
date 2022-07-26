@@ -26,7 +26,7 @@ export const getBook = async (req, res) => {
 
 export const createBook = async (req, res) => {
   try {
-    const book = new book(req.body);
+    const book = new Book(req.body);
     await book.save();
     res.status(201).json(book);
   } catch (error) {
