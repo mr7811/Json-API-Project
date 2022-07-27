@@ -37,7 +37,7 @@ export const createBook = async (req, res) => {
 
 export const updateBook = async (req, res) => {
   const { id } = req.params;
-  const book = await book.findByIdAndUpdate(id, req.body);
+  const book = await Book.findByIdAndUpdate(id, req.body);
   res.status(200).json(book);
 };
 
